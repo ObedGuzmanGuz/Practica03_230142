@@ -65,7 +65,7 @@ app.get('/estado-sesion', (req,res)=>{
             sesionID: req.sessionID,
             inicio: inicioCDMX,
             ultimoAcceso: ultimoCDMX,
-            antiguedad: `${horas} horas, ${minutos}minutos, ${segundos}`
+            antiguedad: `${horas} horas, ${minutos} minutos, ${segundos} segundos`
         });
 
     } else {
